@@ -1,0 +1,159 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+.container-fluid {
+  padding: 7% 15%;
+}
+/* Section */
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+.white-section {
+  background-color: #fff;
+}
+
+/* Headings */
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding-bottom: 4.5rem;
+  font-size: 1.2rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar-nav {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+}
+
+.navbar-nav > li {
+  padding: 0 18px;
+}
+
+h1:hover {
+  color: #212529;
+}
+
+/* Title */
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+.heading-text {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* download-button */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title image */
+.iphone-mockup {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 80px;
+}
+
+/* Medium devices (landscape tablets, 1028px and up) */
+@media only screen and (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  /* Title image */
+  .iphone-mockup {
+    width: 60%;
+    transform: rotate(0);
+    position: static;
+    margin: auto;
+  }
+}
+
+/* Feature */
+#features {
+  position: relative;
+}
+.features-text {
+  font-size: 1.5rem;
+}
+#features i {
+  color: #ef8172;
+}
+#features i:hover {
+  color: #ff4c68;
+}
+
+#features p {
+  color: #8f8f8f;
+}
+#features .col-lg-4 {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+/* Testimonials */
+
+#testimonials {
+  background-color: #ef8172;
+}
+.testimonial-image {
+  width: 10%;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+/* Press */
+#press {
+  background-color: #ef8172;
+}
+
+.pressImg {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Price */
+
+.pricing-column {
+  padding: 3% 2%;
+}
+/* Call to Action */
+
+/* footer */
+
+.footer-icons {
+  padding-bottom: 30px;
+}
+a {
+  padding: 10px;
+  color: #8f8f8f;
+}
