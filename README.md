@@ -1,4 +1,5 @@
 # TinDog
-Bootstrap 4
-CSS
+
+Bootstrap 4,
+CSS,
 Html
